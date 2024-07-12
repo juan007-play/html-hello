@@ -1,0 +1,39 @@
+html{
+    background: black;
+    margin: 20%;
+}
+
+body {
+    background: white;
+    margin: 0;
+}
+
+.Post {
+    display: flex;
+}
+
+div.post-header{
+    background: white;
+    padding: 15px;
+    display: flex;
+}
+
+div.post-img img {
+    margin: auto;
+    width: 100%;
+}
+
+
+div.post .post-header div:first-child{
+    display: inline-block;
+}
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    text-align: right;    
+}
+
+div.post-body far fa-bookmark {
+    display: flex;
+    justify-content: right;
+} 
