@@ -10,12 +10,12 @@ body {
 
 .Post {
     display: flex;
+    padding: 15px;
 }
 
 div.post-header{
     background: white;
-    padding: 15px;
-    display: flex;
+
 }
 
 div.post-img img {
@@ -37,3 +37,11 @@ div.post-body far fa-bookmark {
     display: flex;
     justify-content: right;
 } 
+
+p {
+    padding: 10px 10px 10px 10px;
+}
+
+.post-icons {
+    padding: 15px;
+}
